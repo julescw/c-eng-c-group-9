@@ -5,7 +5,7 @@ int sensorPin = 2;
 int sensorValue = 0;
 
 // helper functions for moving logic
-bool moveforward(void);
+void moveforward(void);
 int searchposition(void);
 void turnright(void);
 void turnleft(void);
